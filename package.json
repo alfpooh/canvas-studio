@@ -1,0 +1,14 @@
+{
+  "name": "canvas-studio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Lean Canvas / Business Model Canvas 실시간 공동 편집 + AI 피드백 + 리포트",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js",
+    "test": "node --test test/*.test.js"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": { "ws": "^8.18.0" }
+}
